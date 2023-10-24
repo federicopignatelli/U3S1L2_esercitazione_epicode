@@ -6,7 +6,7 @@ function Cards() {
     return (
         Historybooks.map((book) => {
             return (
-                <div className="col col-12 col-md-6 col-xl-3 mb-4 d-flex justify-content-center" key={book.asin}>
+                <div className="col col-12 col-md-4 col-xl-3 mb-4 d-flex justify-content-center" key={book.asin}>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={book.img} />
                         <Card.Body>
